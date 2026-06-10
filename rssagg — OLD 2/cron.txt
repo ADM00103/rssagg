@@ -1,0 +1,2 @@
+*/15 * * * * /usr/bin/php /var/www/news/refresh.php >/dev/null 2>&1
+5 0 * * * /usr/bin/php /var/www/news/cleanup.php >/dev/null 2>&1
